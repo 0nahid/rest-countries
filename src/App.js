@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import './App.css';
+import Cart from "./components/Cart/Cart";
 import Country from "./components/Country/Country";
 function App() {
   const [countries, setCountries] = useState([]);
@@ -17,6 +18,7 @@ function App() {
     <div className="country-body">
       <h1>Country Loaded {countries.length}</h1>
       <h1>Country Added {cart.length} </h1>
+      <Cart cart={cart}></Cart>
       <ul>
         {countries.map(country => <Country
           country={country}
