@@ -10,7 +10,7 @@ const Country = (props) => {
             <h3>Population: {population}</h3>
             <h3>Region:{region} </h3>
             <img src={flag} alt="" />
-            <button onClick={() => handleAddCountry(props.country)} >Add Currency</button>
+            <button onClick={() => handleAddCountry(props.country)} >Add Country</button>
         </div>
     );
 };
