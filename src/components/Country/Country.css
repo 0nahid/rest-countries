@@ -1,0 +1,16 @@
+.country {
+  width: 800px;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background: blueviolet;
+  margin-top: 20px;
+  align-items: flex-start;
+  padding: 1%;
+  box-shadow: 0 0 20px white;
+}
+.country img {
+  width: 50%;
+  border-radius: 10px;
+}
